@@ -54,7 +54,23 @@
             color:rgb(0, 0, 0);
             transform: scale(1.2);
         }
-
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #127, 96, 148, 0.57;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -83,6 +99,33 @@
             ?>
         </p>
     </section>
+
+    <footer>
+        <h2>Projetos</h2>
+        <p>Alguns dos projetos que já desenvolvi:</p>
+        <p>Obs: Os projetos são fictícios, apenas para fins de demonstração. Alguns amigos meus da área disseram que era bom colocar uma tabela imagem, então apenas segui os conselhos dele e tentei fazer uma tabela imagem.</p>
+        <p>Obs2: Não consegui fazer o link das imagens, então coloquei elas na pasta imagens e coloquei o caminho delas no src.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Projeto</th>
+                <th>Descrição</th>
+                <th>Imagem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Projeto 1</td>
+                <td>abrigo para gatos</td>
+                <td><img src="https://i.pinimg.com/736x/6b/a3/a4/6ba3a4b89b17287586dfd78c95d11bb8.jpg" alt="Projeto 1"></td>
+            </tr>
+            <tr>
+                <td>Projeto 2</td>
+                <td>abrigo para cachorros</td>
+                <td><img src="https://i.pinimg.com/736x/a0/86/1f/a0861f64a8a65e1bbebcb24bc256b3bc.jpg" alt="Projeto 2"></td>
+            </tr>
+        </tbody>
+    </table>
 
         <div class="social-links">
             <a href="https://www.instagram.com/_miyamari/" target="_blank">Instagram</a>
