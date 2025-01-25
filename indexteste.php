@@ -71,6 +71,9 @@
             height: auto;
             border-radius: 8px;
         }
+        .centro{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -101,10 +104,12 @@
     </section>
 
     <footer>
-        <h2>Projetos</h2>
+        <div class= "centro"> <h2>Projetos</h2>
+</div>
         <p>Alguns dos projetos que já desenvolvi:</p>
         <p>Obs: Os projetos são fictícios, apenas para fins de demonstração. Alguns amigos meus da área disseram que era bom colocar uma tabela imagem, então apenas segui os conselhos dele e tentei fazer uma tabela imagem.</p>
-        <p>Obs2: Não consegui fazer o link das imagens, então coloquei elas na pasta imagens e coloquei o caminho delas no src.</p>
+
+        
     <table>
         <thead>
             <tr>
