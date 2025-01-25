@@ -49,7 +49,6 @@
             font-size: 1.5em;
             text-decoration: none;
             transition: transform 0.3s ease, color 0.3s ease;
-            text-align: center;
         }
         .social-links a:hover {
             color:rgb(0, 0, 0);
@@ -68,7 +67,7 @@
         <p>
             <?php 
                 $nome = "Mariana Miyamoto";
-                $descricao = "Bom, esse é meu primeiro teste em php!! Segui estudando o material no qual vocês me mandaram, e fui tentado mexer em algumas coisas sozinha. No mais, é meu primeiro teste em php, tentei usar um pouco do que eu aprendi no meu primeiro período em hmtl, com a ajuda das ferramentas nas quais os professores recomendaram usar, como o bootstrap. Num geral, só queria mostrar que eu tentei estudar o máximo que consegui para criar esse pequeno projeto!!";
+                $descricao = "Bom, esse é meu primeiro teste em php!! Segui estudando o material no qual vocês me mandaram na trilha do aprimoramento, e fui tentado mexer em algumas coisas sozinha. No mais, é meu primeiro teste em php, tentei usar um pouco do que eu aprendi no meu primeiro período em sistemas, com o básico de html e css, com a ajuda das ferramentas nas quais os professores recomendaram usar, como o bootstrap. Num geral, só queria mostrar que eu tentei estudar pelo menos o início básico do php, aprendendo a guardar suas variáveis e afins.";
                 echo "Olá, meu nome é <strong>$nome</strong>. $descricao";
             ?>
         </p>
